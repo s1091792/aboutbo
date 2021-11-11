@@ -1,13 +1,12 @@
 from flask import Flask, render_template, request
 from datetime import datetime
 
-from waitress import serve
 app = Flask(__name__)
 
 
 @app.route("/")
 def index():
-    homepage = "<h1>林柏君Python測試網頁</h1>"
+    homepage = "<h1>林柏君Python功課測試網頁</h1>"
     homepage += "<a href=/aboutbo>aboutme</a><br>"
     homepage += "<a href=/mis>MIS</a><br>"
     homepage += "<a href=/current>開啟網頁及顯示日期時間</a><br>"
@@ -64,5 +63,8 @@ def login():
 
 if __name__ == "__main__":
 
-   	#app.run()
-	serve(app, host='0.0.0.0', port=8081)
+   app.run()
+
+
+
+

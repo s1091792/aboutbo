@@ -1,1 +1,1 @@
-web: gunicorn bo_flask_sever:app
+web: gunicorn bo_flask:app
