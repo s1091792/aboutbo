@@ -27,14 +27,26 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-	<!--
+	
 	<script>
 
 		$(document).ready(function(){
 
-			$("#PICTURE").hover(function(){
+			$("#I").hover(function(){
 
-				$("#PICTURE").attr("src","static/images/hollandcode.png");
+				$("#PICTURE").attr("src","static/images/me01.jpg");
+
+			});
+
+			$("#PU").hover(function(){
+
+				$("#PICTURE").attr("src","static/images/me02.jpg");
+
+			});
+
+			$("#CSIM").hover(function(){
+
+				$("#PICTURE").attr("src","static/images/me03.jpg");
 
 			});
 
@@ -49,7 +61,7 @@
 		});
 
 	</script>
-	-->
+	
 
 
 </head>
@@ -70,9 +82,10 @@
 					<li class="nav-item"><a class="nav-link" href="#education">學歷</a></li>
 					<li class="nav-item"><a class="nav-link" href="#experience">經歷</a></li>
 					<li class="nav-item"><a class="nav-link" href="#skill">個人專長</a></li>
+					<li class="nav-item"><a class="nav-link" href="#work">應徵項目</a></li>
+					<li class="nav-item"><a class="nav-link" href="#why">為何適合這份工作</a></li>
 					<li class="nav-item"><a class="nav-link" href="#future">未來規劃</a></li>
 					<li class="nav-item"><a class="nav-link" href="#tell">聯繫方式</a></li>
-					<li class="nav-item"><a class="nav-link" href="#youtube"></a></li>
 				</ul>
 			</div>
 
@@ -93,7 +106,7 @@
 
 			<br>
 
-			
+			<img src="static/images/me01.jpg" alt="照片" width="400" height="534" id="PICTURE">
 			<br><br><br><br> 
 
 			<div class="row">
@@ -109,9 +122,9 @@
                     <h4><li>善於表達及溝通</li></h4>
                     <br>
                     <h3 class="row-lg-2">Holland Code</h3>
-                    <img src="static/images/hollandcode.png" alt="照片" width="450" height="380">
+                    <img src="static/images/hollandcode.png" alt="照片" width="450" height="380" borde="1">
 					<br><br>
-					
+
                     </div>
                     
 				</session>
@@ -146,14 +159,55 @@
 					<br>
 				</artical>
 
+				<artical id="work" class="col-lg-4">
+					<header>應徵項目</header>
+					<br>
+					<h3>公司名稱：</h3><h4>嬌聯股份有限公司</h4><br>
+					<h3>職位名稱：</h3><h4>資訊專員(ABAP)</h4><br>
+					<h3>工作內容：</h3><h4>負責SAP ERP系統之建置開發、系統優化維護、例行作業支援等工作，確保相關系統運行及服務品質，其包含:<br><ol> 
+						<li>SAP ERP系統日常運作維護、異常排除與控管</li>
+						<li>配合需求單位進行SAP ABAP程式之系統分析、設計、開發、測試、教育訓練與問題解決</li>
+						<li>SAP ERP 系統相關作業流程與程式開發文件撰寫</li></ol></h4><br>
+					<h3>要求條件</h3>
+					<h4><b>接受身份：</b>一般求職者<br>
+						<b>工作經驗：</b>不拘<br>
+						<b>學歷限制：</b>專科以上<br>
+						<b>科系限制：</b>不拘<br>
+						<b>電腦專長：</b>SAP ERP<br>
+						<b>附加條件：</b><br>
+						工作技能：企業資源規劃管理(ERP)<br><br>
+						<b>其他條件：</b><br>
+						ABAP程式開發(Report/Smartform/Batch Input/Function module/RFC)經驗2年以上 
+						<br>
+						具SAP SD模組維運經驗尤佳
+						<br>
+						具IMG設定經驗尤佳
+						<br>
+						具責任感、擅溝通協調、具團隊共識精神<br><br>
+					
+					</h4>
+
+				</artical>
+
+				<artical id="why" class="col-lg-4">
+					<header><b>為何適合這份工作</b></header>
+                    <br>
+					<h4>這份工作需要負責SAP ERP的相關工作，我身為資管系的學生皆有學習，在工作上遇到問題時，能夠快速知道問題的發生點和原因，並解決。<br>且這份工作的特質需要擅長溝通協調，我在系學會中擔任執行秘書一職，時常需要和學校進行溝通，也需要和同學們協調。
+					</h4>
+					<br>
+				</artical>
+
 				<artical id="future" class="col-lg-4">
 					<header>未來規劃</header>
 					<br>
-					<h2>
-						除了專注於資管系的課，我同時也計畫考取相關證照和多益。
-					</h2>
-
+					<h4>
+						除了專注於資管系的課，我同時也計畫考取相關證照和多益。<br>
+						在課業之餘，我會精進自己的語言能力，除了英語，我還會選修德語，因為我未來想赴德國旅遊或是工作。<br>
+						靜宜大學以411遊留學計畫為特色，我打算以此為目標，申請歐洲的學校，當作自己的一個人生小目標。<br>
+					</h4>
 				</artical>
+
+				
 
                 <artical id="tell" class="col-lg-4">
                     <header><b>聯繫方式</b></header>
@@ -163,14 +217,7 @@
 						class="text-reset text-decoration-none text-white bg-info">s1091792@gm.pu.edu.tw</a></h3>
                 </artical>
 
-
-
-				<aside id="youtube" class="col-lg-4">
-					<header>推薦影片</header>
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreenclass="embed-responsive-item">></iframe>
-					</div>
-				</aside>
+				
 
 			</div>
 			<br><br>
